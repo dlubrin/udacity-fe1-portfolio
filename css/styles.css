@@ -88,6 +88,11 @@ a {
     text-align: center;
   }
   
+  section, h2 {
+    margin-bottom: 2em;
+    border-bottom: solid #b6cacc 2px;
+  }
+  
   .col-md-1 {
     width: 100%;
   }
@@ -136,5 +141,10 @@ a {
 @media only screen and (min-width: 750px) and (max-width: 991px) {
   .container, header {
     text-align: center;
+  }
+  
+  section, h2 {
+    margin-bottom: 2em;
+    border-bottom: solid #b6cacc 2px;
   }
 }
