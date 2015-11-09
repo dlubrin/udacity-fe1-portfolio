@@ -12,68 +12,6 @@
   box-sizing: border-box;
 }
 
-/* Grid Framework */
-.grid {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-}
-
-.row {
-    width: 100%;
-    margin-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
-}
-
 /* Site Specific CSS */
 
 body {
@@ -101,7 +39,7 @@ header {
 h1 {
   font-size: 4em;
   font-weight: 100;
-  margin-bottom: 0;
+  margin: 1em 0 0 0;
 }
 
 .subtitle {
@@ -124,6 +62,7 @@ h2 {
 
 h3 {
   color: #747704;
+  text-transform: uppercase;
 }
 
 a {
@@ -154,47 +93,47 @@ a {
     text-align: center;
   }
   
-  .col-1 {
+  .col-md-1 {
     width: 100%;
   }
   
-  .col-2 {
+  .col-md-2 {
     width: 100%;
   }
   
-  .col-3 {
+  .col-md-3 {
     width: 100%;
   }
   
-  .col-4 {
+  .col-md-4 {
     width: 100%;
   }
   
-  .col-5 {
+  .col-md-5 {
     width: 100%;
   }
   
-  .col-6 {
+  .col-md-6 {
     width: 100%;
   }
   
-  .col-7 {
+  .col-md-7 {
     width: 100%;
   }
   
-  .col-8 {
+  .col-md-8 {
     width: 100%;
   }
   
-  .col-9 {
+  .col-md-9 {
     width: 100%;
   }
   
-  .col-10 {
+  .col-md-10 {
     width: 100%;
   }
   
-  .col-11 {
+  .col-md-11 {
     width: 100%;
   }
 }

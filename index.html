@@ -2,18 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <!-- The following 2 lines are from Bootstrap's Basic Template -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>Dennis Lubrin</title>
     
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,100,500" rel="stylesheet">
+    <!-- Normalize CSS -->
     <link href="css/normalize.css" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts - Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,100,500" rel="stylesheet">
+    
+    <!-- Custom CSS Styles -->
     <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <header class="row">
-        <img src="images/profile-suit.jpg" class="logo col-3" alt="Logo image">
-        <div class="col-9">
+        <img src="images/profile-suit.jpg" class="logo col-md-3" alt="Logo image">
+        <div class="col-md-9">
           <h1>Dennis Lubrin</h1>
           <p class="subtitle">Web Developer Newbie</p>
         </div>
@@ -26,7 +37,7 @@
       <footer>
         <h2>Featured Work</h2>
         <div class="row">
-          <section class="col-4">
+          <section class="col-md-4">
             <a href="http://dennislubrin.com/udacity/front-end-web-developer/fe-nanodegree-project-0/">
               <div class="button">
                 <img src="images/udacity-fewd-p0.png" class="portfolio-img" alt="Udacity Project 0">
@@ -35,7 +46,7 @@
               </div>
             </a>
           </section>
-          <section class="col-4">
+          <section class="col-md-4">
             <a href="http://dennislubrin.com/one-month/html/omh-challenge-project/">
               <div class="button">
                 <img src="images/omh-portfolio-project.png" class="portfolio-img" alt="One Month HTML Portfolio project">
@@ -44,7 +55,7 @@
               </div>
             </a>
           </section>
-          <section class="col-4">
+          <section class="col-md-4">
             <a href="http://dennislubrin.com/one-month/html/monthly-resolutions/">
               <div class="button">
                 <img src="images/omh-blog-project.png" class="portfolio-img" alt="One Month HTML Blog project">
@@ -56,5 +67,10 @@
         </div><!-- .row -->
       </footer>
     </div> <!-- .container -->
+    
+    <!-- The following lines are from Bootstrap's Basic Template to add jQuery and JavaScript functionality -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
