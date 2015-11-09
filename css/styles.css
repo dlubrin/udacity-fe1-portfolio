@@ -6,145 +6,144 @@
 
 /* Box Sizing */
 * {
-  -ms-mox-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -ms-mox-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Site Specific CSS */
 
 body {
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 header {
-  border-bottom: solid #b6cacc 5px;
-  text-transform: uppercase;
-  text-align: right;
-  margin: auto 0;
+    border-bottom: solid #b6cacc 5px;
+    text-transform: uppercase;
+    text-align: right;
+    margin: auto 0;
 }
 
 h1 {
-  font-size: 4em;
-  font-weight: 100;
-  margin: 1em 0 0 0;
+    font-size: 4em;
+    font-weight: 100;
+    margin: 1em 0 0 0;
 }
 
 .subtitle {
-  font-size: 1.5em;
-  margin-top: 0;
+    font-size: 1.5em;
+    margin-top: 0;
 }
 
 main {
-  padding: 2em 1em;
+    padding: 2em 1em;
 }
 
-
 section {
-  text-align: center;
+    text-align: center;
 }
 
 h2 {
-  color: #bcbbbb;
+    color: #bcbbbb;
 }
 
 h3 {
-  color: #747704;
-  text-transform: uppercase;
+    color: #747704;
+    text-transform: uppercase;
 }
 
 a {
-  text-decoration: none;
-  color: #bcbbbb;
+    text-decoration: none;
+    color: #bcbbbb;
 }
 
 .logo {
-  border-radius: 50%;
-  padding: 10px;
-  margin: 0 auto;
-  max-height: 200px;
-  max-width: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    max-height: 200px;
+    max-width: 200px;
 }
 
 .portfolio-img {
-  border-radius: 50px;
-  padding: 10px;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 /* Media Queries */
 @media only screen and (max-width: 750px) {
-  .container {
-    text-align: center;
-  }
-  
-  header {
-    text-align: center;
-  }
-  
-  section, h2 {
-    margin-bottom: 2em;
-    border-bottom: solid #b6cacc 2px;
-  }
-  
-  .col-md-1 {
-    width: 100%;
-  }
-  
-  .col-md-2 {
-    width: 100%;
-  }
-  
-  .col-md-3 {
-    width: 100%;
-  }
-  
-  .col-md-4 {
-    width: 100%;
-  }
-  
-  .col-md-5 {
-    width: 100%;
-  }
-  
-  .col-md-6 {
-    width: 100%;
-  }
-  
-  .col-md-7 {
-    width: 100%;
-  }
-  
-  .col-md-8 {
-    width: 100%;
-  }
-  
-  .col-md-9 {
-    width: 100%;
-  }
-  
-  .col-md-10 {
-    width: 100%;
-  }
-  
-  .col-md-11 {
-    width: 100%;
-  }
+    .container {
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    section, h2 {
+        margin-bottom: 2em;
+        border-bottom: solid #b6cacc 2px;
+    }
+
+    .col-md-1 {
+        width: 100%;
+    }
+
+    .col-md-2 {
+        width: 100%;
+    }
+
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .col-md-4 {
+        width: 100%;
+    }
+
+    .col-md-5 {
+        width: 100%;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .col-md-7 {
+        width: 100%;
+    }
+
+    .col-md-8 {
+        width: 100%;
+    }
+
+    .col-md-9 {
+        width: 100%;
+    }
+
+    .col-md-10 {
+        width: 100%;
+    }
+
+    .col-md-11 {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 750px) and (max-width: 991px) {
-  .container, header {
-    text-align: center;
-  }
-  
-  section, h2 {
-    margin-bottom: 2em;
-    border-bottom: solid #b6cacc 2px;
-  }
+    .container, header {
+        text-align: center;
+    }
+
+    section, h2 {
+        margin-bottom: 2em;
+        border-bottom: solid #b6cacc 2px;
+    }
 }
