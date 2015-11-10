@@ -25,7 +25,9 @@
 <body>
     <div class="container">
         <header class="row">
-            <img src="images/profile-suit.jpg" class="logo col-md-3" alt="Logo image">
+            <div class="col-md-3">
+                <img src="images/profile-suit.jpg" class="logo" alt="Logo image">
+            </div>
             <div class="col-md-9">
                 <h1>Dennis Lubrin</h1>
                 <p class="subtitle">Web Developer Newbie</p>
@@ -33,13 +35,13 @@
         </header>
 
         <main>
-            <img src="images/munger-quote.png" alt="Main front-page image">
+            <img src="images/munger-quote.png" class="img-responsive" alt="Main front-page image">
         </main>
 
-        <footer>
+        <section>
             <h2>Featured Work</h2>
             <div class="row">
-                <section class="col-md-4">
+                <article class="col-md-4 col-sm-12 col-xs-12">
                     <a href="http://dennislubrin.com/udacity/front-end-web-developer/fe-nanodegree-project-0/" target="_blank">
                         <div class="button">
                             <img src="images/udacity-fewd-p0.png" class="portfolio-img" alt="Udacity Project 0">
@@ -47,8 +49,8 @@
                             <p>http://bit.ly/20Cn5Ig</p>
                         </div>
                     </a>
-                </section>
-                <section class="col-md-4">
+                </article>
+                <article class="col-md-4 col-sm-12 col-xs-12">
                     <a href="http://dennislubrin.com/one-month/html/omh-challenge-project/" target="_blank">
                         <div class="button">
                             <img src="images/omh-portfolio-project.png" class="portfolio-img" alt="One Month HTML Portfolio project">
@@ -56,8 +58,8 @@
                             <p>http://bit.ly/1SyXBXb</p>
                         </div>
                     </a>
-                </section>
-                <section class="col-md-4">
+                </article>
+                <article class="col-md-4 col-sm-12 col-xs-12">
                     <a href="http://dennislubrin.com/one-month/html/monthly-resolutions/" target="_blank">
                         <div class="button">
                             <img src="images/omh-blog-project.png" class="portfolio-img" alt="One Month HTML Blog project">
@@ -65,9 +67,13 @@
                             <p>http://bit.ly/1HwBbzg</p>
                         </div>
                     </a>
-                </section>
+                </article>
             </div>
             <!-- .row -->
+        </section>
+
+        <footer>
+            <p>© 2015 Dennis Lubrin | dennis@dennislubrin.com</p>
         </footer>
     </div>
     <!-- .container -->

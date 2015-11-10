@@ -15,7 +15,7 @@
 /* Site Specific CSS */
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 img {
@@ -46,7 +46,7 @@ main {
     padding: 2em 1em;
 }
 
-section {
+article {
     text-align: center;
 }
 
@@ -77,6 +77,11 @@ a {
     padding: 10px;
 }
 
+footer {
+    margin: 2em 0 1em 0;
+    text-align: center;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 750px) {
     .container {
@@ -87,63 +92,22 @@ a {
         text-align: center;
     }
 
-    section, h2 {
+    section,
+    h2 {
         margin-bottom: 2em;
         border-bottom: solid #b6cacc 2px;
-    }
-
-    .col-md-1 {
-        width: 100%;
-    }
-
-    .col-md-2 {
-        width: 100%;
-    }
-
-    .col-md-3 {
-        width: 100%;
-    }
-
-    .col-md-4 {
-        width: 100%;
-    }
-
-    .col-md-5 {
-        width: 100%;
-    }
-
-    .col-md-6 {
-        width: 100%;
-    }
-
-    .col-md-7 {
-        width: 100%;
-    }
-
-    .col-md-8 {
-        width: 100%;
-    }
-
-    .col-md-9 {
-        width: 100%;
-    }
-
-    .col-md-10 {
-        width: 100%;
-    }
-
-    .col-md-11 {
-        width: 100%;
-    }
+    };
 }
 
 @media only screen and (min-width: 750px) and (max-width: 991px) {
-    .container, header {
+    .container,
+    header {
         text-align: center;
     }
 
-    section, h2 {
+    article,
+    h2 {
         margin-bottom: 2em;
         border-bottom: solid #b6cacc 2px;
-    }
+    };
 }
